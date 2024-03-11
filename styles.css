@@ -1,0 +1,193 @@
+* {
+  margin: 0px 0px;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  /* margin-bottom: 500px; */
+}
+header {
+  height: 595px;
+  background-image: url('1.jpg');
+  background-size: cover;
+  display: relative;
+  padding-top: 60px;
+}
+.header-text {
+  display: absolute;
+  margin-left: 150px;
+}
+.restaurant-name {
+  font-size: 96px;
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+}
+.caption {
+  margin-left: 25px;
+  margin-bottom: 88px;
+  font-size: 16px;
+}
+.tabs {
+  font-size: 24px;
+  margin-bottom: 24px;
+  position: relative;
+  cursor: pointer;
+}
+.tabs:hover {
+  color: green;
+}
+.jalapeno-tabs {
+  display: block;
+  position: absolute;
+  width: 40px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  margin-left: -42px;
+  margin-top: -38px;
+}
+.tabs:hover .jalapeno-tabs {
+    opacity: 1;
+}
+.socials-container {
+  margin-top: 88px;
+  
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+.fab {
+  color: black;
+  font-size: 42px;
+  transition: 0.5s;
+  margin-right: 24px;
+}
+.fab:hover {
+  color: rgb(20,102,26);
+}
+.doordash-container, .ubereats-container {
+  width: 40px;
+  display: inline-block;
+}
+.doordash, .ubereats {
+  margin-bottom: -46px;
+  transition: 0.8s;
+}
+.doordash-green, .ubereats-green {
+  opacity: 0;
+  transition: 0.8s;
+}
+.doordash-container:hover .doordash-green, .ubereats-container:hover .ubereats-green{
+    opacity: 1;
+}
+.doordash-container:hover .doordash, .ubereats-container:hover .ubereats{
+  opacity: 0;
+}
+.doordash-container{
+  margin-left: 26px;
+}
+.about-section {
+  margin-top: 88px;
+  margin-bottom: 88px;
+  display: flex;
+}
+.left-side, .right-side {
+  max-width: 50%;
+  margin-left: 150px;
+  vertical-align: middle;
+}
+.right-side {
+  text-align: center;
+  margin-top: 32px;
+  margin-left: 32px;
+  background-color: rgb(20,102,26, 0.2);
+  padding: 24px;
+  border-radius: 12px;
+}
+.about-title {
+  font-size: 56px;
+}
+.about-p, .hours-p {
+  font-family: "Georgia";
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.about-p{
+  line-height: 28px;
+}
+.hours-title {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.booknow {
+  height: 56px;
+  width: 120px;
+  border: 1px solid green;
+  border-radius: 16px;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.booknow:hover {
+  color: white;
+  background-color: rgb(20,102,26);
+}
+.location-title {
+  margin-left: 150px;
+  margin-bottom: 24px;
+  font-size: 56px;
+}
+.sb-map {
+  margin-left: 158px;
+  width: 75%;
+}
+.location-caption {
+  margin-left: 158px;
+  margin-bottom: 150px;
+  font-family: "cochin";
+}
+footer {
+  background-color: black;
+  padding-right: 60px;
+  color: white;
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+}
+footer div {
+  margin-left: 100px;
+ 
+}
+footer div a{
+  color: white;
+  margin-bottom: 24px;
+  display: block;
+  font-size: 100%;
+  font-family: "cochin";
+  text-decoration: none;
+  transition: 1s;
+}
+footer div a:hover{
+  text-decoration: underline;
+}
+.footer-left-side h1{
+  font-family: "italianno";
+  font-size: 96px;
+}
+.footer-left-side h2{
+  font-size: 16px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.footer-links {
+
+}
+.padding {
+  padding-top: 50px;
+}
+  
+
