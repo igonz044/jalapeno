@@ -93,6 +93,7 @@ li {
   margin-top: 88px;
   margin-bottom: 88px;
   display: flex;
+  flex-wrap: wrap;
 }
 .left-side, .right-side {
   max-width: 50%;
@@ -102,7 +103,7 @@ li {
 .right-side {
   text-align: center;
   margin-top: 32px;
-  margin-left: 32px;
+  
   background-color: rgb(20,102,26, 0.2);
   padding: 24px;
   border-radius: 12px;
