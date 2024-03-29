@@ -165,7 +165,7 @@ footer div a{
   color: white;
   margin-bottom: 24px;
   display: block;
-  font-size: 1.6vw; 
+  font-size: 1.8dvw; 
   font-family: "cochin";
   text-decoration: none;
   transition: 1s;
@@ -182,15 +182,16 @@ footer div a:hover{
   margin-left: 25px;
   margin-bottom: 20px;
 }
-.footer-links {
-
+.footer-text {
+  display: flex;
+  flex-shrink: 0;
 }
 .padding {
   padding-top: 50px;
 }
 @media screen and (max-width: 1000px) {
   .right-side {
-      margin-left: 156px;
+      margin-left: 106px;
   }
 }
 
