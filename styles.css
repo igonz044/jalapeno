@@ -5,9 +5,6 @@
   font-weight: 400;
   font-style: normal;
 }
-body {
-  /* margin-bottom: 500px; */
-}
 header {
   height: 595px;
   background-image: url('1.jpg');
@@ -97,14 +94,14 @@ li {
 }
 .left-side, .right-side {
   max-width: 50%;
-  margin-left: 150px;
+  margin-left: 108px;
   vertical-align: middle;
 }
 .right-side {
   text-align: center;
   margin-top: 32px;
-  
-  background-color: rgb(20,102,26, 0.2);
+  margin-left: 44px;
+  background-color: rgba(20, 102, 25, 0.111);
   padding: 24px;
   border-radius: 12px;
 }
@@ -112,7 +109,7 @@ li {
   font-size: 56px;
 }
 .about-p, .hours-p {
-  font-family: "Georgia";
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 200;
   font-size: 20px;
   margin-bottom: 16px;
@@ -137,17 +134,19 @@ li {
   color: white;
   background-color: rgb(20,102,26);
 }
+.location-section {
+  margin-left: 108px;
+}
 .location-title {
-  margin-left: 150px;
   margin-bottom: 24px;
   font-size: 56px;
 }
 .sb-map {
-  margin-left: 158px;
+  margin-left: 8px;
   width: 75%;
 }
 .location-caption {
-  margin-left: 158px;
+  margin-left: 8px;
   margin-bottom: 150px;
   font-family: "cochin";
 }
@@ -161,13 +160,12 @@ footer {
 }
 footer div {
   margin-left: 100px;
- 
 }
 footer div a{
   color: white;
   margin-bottom: 24px;
   display: block;
-  font-size: 100%;
+  font-size: 1.6vw; 
   font-family: "cochin";
   text-decoration: none;
   transition: 1s;
@@ -190,5 +188,9 @@ footer div a:hover{
 .padding {
   padding-top: 50px;
 }
-  
+@media screen and (max-width: 1000px) {
+  .right-side {
+      margin-left: 156px;
+  }
+}
 
